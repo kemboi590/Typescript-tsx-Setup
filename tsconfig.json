@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",   // used to specify the ECMAScript version that the code should be compiled to                            
+    "module": "Node16",  // used to specify the module system that the code should be compiled to
+    "outDir": "./dist", // used to specify the output directory for the compiled code
+    "rootDir": "./src", // used to specify the root directory of the source code
+    "esModuleInterop": true,        // used to enable the interoperability between CommonJS and ES6 modules
+    "strict": true,   // used to enable strict type-checking options
+    "moduleResolution": "Node16", // used to specify the module resolution strategy
+    "skipLibCheck": true       // used to skip type checking of all declaration files              
+  },
+  "include": ["src"],  // used to specify the files that should be included in the compilation
+  "exclude": ["node_modules"]  // used to specify the files that should be excluded from the compilation
+}
